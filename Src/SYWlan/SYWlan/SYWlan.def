@@ -1,0 +1,6 @@
+LIBRARY	"SYWlan"
+
+EXPORTS
+		TestAdd			@1
+		Scan			@2
+		ConnetWithSSID	@3

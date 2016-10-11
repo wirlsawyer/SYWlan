@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SYWlan", "..\SYWlan\SYWlan\SYWlan.vcproj", "{D15E8F10-A6D1-4B44-9D04-2A8F85F4D306}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SYWlanDemo", "..\SYWlanDemo\SYWlanDemo\SYWlanDemo.vcproj", "{4B9E4EB4-A72C-4D31-970A-B2A5EDFDDE08}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D15E8F10-A6D1-4B44-9D04-2A8F85F4D306} = {D15E8F10-A6D1-4B44-9D04-2A8F85F4D306}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D15E8F10-A6D1-4B44-9D04-2A8F85F4D306}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D15E8F10-A6D1-4B44-9D04-2A8F85F4D306}.Debug|Win32.Build.0 = Debug|Win32
+		{D15E8F10-A6D1-4B44-9D04-2A8F85F4D306}.Release|Win32.ActiveCfg = Release|Win32
+		{D15E8F10-A6D1-4B44-9D04-2A8F85F4D306}.Release|Win32.Build.0 = Release|Win32
+		{4B9E4EB4-A72C-4D31-970A-B2A5EDFDDE08}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B9E4EB4-A72C-4D31-970A-B2A5EDFDDE08}.Debug|Win32.Build.0 = Debug|Win32
+		{4B9E4EB4-A72C-4D31-970A-B2A5EDFDDE08}.Release|Win32.ActiveCfg = Release|Win32
+		{4B9E4EB4-A72C-4D31-970A-B2A5EDFDDE08}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
